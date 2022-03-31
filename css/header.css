@@ -1,0 +1,120 @@
+.navbar {
+    align-items: center;
+    background-color: #FFFFFF;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navegacion {
+    align-items: center;
+    display: flex;
+    gap: 1.25rem;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 1.5rem 0;
+    width: 80%;
+}
+
+/* search */
+.buscador {
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    border: solid 1px rgb(236, 236, 236);
+    border-radius: 1rem;
+    display: flex;
+    padding-right: 1rem;
+}
+
+.input__buscador {
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 1rem;
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    height: 2.5rem;
+    outline: none;
+    padding-left: 1rem;
+    width: 24rem;
+}
+
+.bi {
+    background-color: rgb(236, 236, 236);
+    color:#464646;
+    cursor: pointer;
+}
+
+.login_button {
+    border: solid #2A7AE4 1px;
+    border-radius: 5%;
+    background-color: #d1deee;
+    color:#2A7AE4;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 1rem 3.5rem;
+    text-align: center;
+    transition: all 1s;
+}
+
+.login_button:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px #2A7AE4;
+}
+
+.login_link {
+    text-decoration: none;
+}
+
+
+@media (max-width: 450px) {
+
+    .navegacion {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1920px;
+        padding: 1.5rem 0;
+        width: 90%;
+    }
+
+    .buscador {
+        align-items: center;
+        background-color: #FFFFFF;
+        border: solid 1px #FFFFFF;
+        border-radius: 1rem;
+        display: flex;
+        order: 3;
+    }
+
+    .bi {
+        background-color: #FFFFFF;
+        color:#464646;
+        cursor:pointer;
+        font-size: 2rem;
+    }
+    
+    .input__buscador {
+        background-color: rgb(236, 236, 236);
+        border: none;
+        border-radius: 1rem;
+        display: none;
+        font-family: Raleway, sans-serif;
+        font-size: 1rem;
+        height: 2.5rem;
+        outline: none;
+        padding-left: 1rem;
+        width: 24rem;
+    }
+
+    .login_button{
+        border: solid #2A7AE4 1px;
+        color:#2A7AE4;
+        cursor: pointer;
+        margin: 0;
+        padding: 1rem 3.5rem;
+        text-align: center;
+    }
+    
+}

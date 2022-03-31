@@ -1,0 +1,20 @@
+.derechos {
+    font-size: 1.1em;
+    padding: 5px 5px 5px 5px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .footer{
+        width: 100%;
+    }
+
+    .derechos {
+        font-size: 0.85em;
+        padding: 5px 0px;
+    }
+}
