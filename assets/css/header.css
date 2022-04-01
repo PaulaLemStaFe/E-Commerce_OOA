@@ -10,7 +10,8 @@
 .navegacion {
     align-items: center;
     display: flex;
-    gap: 1.25rem;
+    gap: 2.25rem;
+    justify-content: space-between;
     margin: 0 auto;
     max-width: 1920px;
     padding: 1.5rem 0;
@@ -52,7 +53,7 @@
     color:#2A7AE4;
     cursor: pointer;
     margin-left: auto;
-    padding: 1rem 3.5rem;
+    padding: 1rem 2.5rem;
     text-align: center;
     transition: all 1s;
 }

@@ -1,9 +1,19 @@
+.footer {
+    background-color: #FFFFFF;
+}
+
 .derechos {
+    background-color: #FFFFFF;
+    bottom: 0;
     font-size: 1.1em;
     padding: 5px 5px 5px 5px;
     position: fixed;
     text-align: center;
     width: 100%;
+}
+
+.bi {
+    margin-right: 8px;
 }
 
 
