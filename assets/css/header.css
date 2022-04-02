@@ -70,8 +70,68 @@
 
 
 @media (min-width:451px) and (max-width:768px) {
+
     .logo_image {
-        width: 75%;
+        width: 90%;
+    }
+
+    .navegacion {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1920px;
+        padding: 1rem 0;
+        width: 90%;
+    }
+
+    .buscador {
+        align-items: center;
+        background-color: #FFFFFF;
+        border: solid 1px #FFFFFF;
+        border-radius: 1rem;
+        display: flex;
+        order: 3;
+        padding: 0;
+    }
+
+    .input_icon {
+        font-size: 2rem;
+    }
+
+    .bi, .bi-search {
+        background-color: #FFFFFF;
+        color:#464646;
+        cursor: pointer;
+    }
+
+    .bi-search::before {
+        color: #464646;
+        font-size: 2rem;
+        font-weight: 900;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .input__buscador {
+        background-color: rgb(236, 236, 236);
+        border: none;
+        border-radius: 1rem;
+        display: none;
+        font-family: Raleway, sans-serif;
+        font-size: 1rem;
+        outline: none;
+        padding-left: 1rem;
+    }
+
+    .login_button{
+        border: solid #2A7AE4 1px;
+        color:#2A7AE4;
+        cursor: pointer;
+        margin: 0;
+        padding: 1rem 2rem;
+        text-align: center;
+        width: 10%;
     }
 }
 
