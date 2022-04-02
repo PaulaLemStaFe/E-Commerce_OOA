@@ -1,11 +1,19 @@
 .banner {
-    background-color: #4495ff;
     background-image: url(../imagenes/banner/banner-image.png);
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-    margin: 6.125rem auto 0 auto;
-    width: 100%;
+
+	width: 100%;
+	height: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	color: #fff;
+	gap: 10px;
+	font-weight: 700;
+    margin: 6.5rem auto 0 auto;
 }
 
 .banner_section {
@@ -60,9 +68,8 @@
 @media (min-width:451px) and (max-width:768px) {
 
     .banner {
-        background-color: #4495ff;
-        background-image: url(../imagenes/banner/banner-image.png);
-        margin: 6.125rem auto 0 auto;
+        width: 100%;
+        height: 30%;
     }
     
     .banner_section {
@@ -81,12 +88,8 @@
 @media (max-width: 450px) {
 
     .banner {
-        background-color: #4495ff;
-        background-image: url(../imagenes/banner/banner-image.png);
-        background-position: 700px;
-        background-size: cover;
-        box-sizing: content-box;
-        margin: 6.125rem auto 0 auto;
+        width: 100%;
+        height: 25%;
     }
     
     .banner_section {
@@ -96,6 +99,21 @@
         margin: 0;
         max-width: 1920px;
         width: 90%;
+    }
+
+    .prom {
+        font-size: 2.5rem;
+        margin: auto;
+        padding-top: 3rem;
+    }
+
+    .description {
+        font-size: 1.25rem;
+    }
+
+    .see_button {
+        font-size: 1.25rem;
+        margin: auto 0;
     }
 
 }

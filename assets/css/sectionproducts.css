@@ -6,7 +6,7 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1920px;
-    width: 80%;
+    width: 90%;
 }
 
 .title {
@@ -80,6 +80,10 @@
         font-size: 1rem;
     }
 
+    .categoria_card {
+        width: 23%;
+    }
+
 }
 
 @media (max-width: 450px) {
@@ -88,7 +92,7 @@
         align-items: center;
         display: flex;
         flex-flow: row wrap;
-        gap: 2rem 0rem;
+        gap: 1.5rem 0rem;
         justify-content: space-between;
         margin: 0 auto;
         max-width: 1920px;
@@ -97,6 +101,14 @@
 
     .bi {
         font-size: 1rem;
+    }
+
+    .star_wars__title {
+        margin-top: 2.5rem;
+    }
+
+    .categoria_card {
+        width: 45%;
     }
     
 }

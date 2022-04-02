@@ -68,7 +68,18 @@
 }
 
 
+
+@media (min-width:451px) and (max-width:768px) {
+    .logo_image {
+        width: 75%;
+    }
+}
+
 @media (max-width: 450px) {
+
+    .logo_image {
+        width: 75%;
+    }
 
     .navegacion {
         align-items: center;
@@ -76,7 +87,7 @@
         justify-content: space-between;
         margin: 0 auto;
         max-width: 1920px;
-        padding: 1.5rem 0;
+        padding: 1rem 0;
         width: 90%;
     }
 
@@ -87,13 +98,25 @@
         border-radius: 1rem;
         display: flex;
         order: 3;
+        padding: 0;
     }
 
-    .bi {
+    .input_icon {
+        font-size: 2rem;
+    }
+
+    .bi, .bi-search {
         background-color: #FFFFFF;
         color:#464646;
-        cursor:pointer;
+        cursor: pointer;
+    }
+
+    .bi-search::before {
+        color: #464646;
         font-size: 2rem;
+        font-weight: 900;
+        margin: 0;
+        padding: 0;
     }
     
     .input__buscador {
@@ -114,8 +137,9 @@
         color:#2A7AE4;
         cursor: pointer;
         margin: 0;
-        padding: 1rem 3.5rem;
+        padding: 1rem 3rem;
         text-align: center;
+        width: 10%;
     }
     
 }
