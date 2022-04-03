@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/prodcutsgallery.css">
     <link rel="stylesheet" href="../assets/css/sectioncontact.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <title>AluraGeek - Login</title>
+    <link rel="stylesheet" href="./assets/css/productdetail.css">
+    <title>AluraGeek - Detalles</title>
 </head>
 <body>
-    
+
     <!-- READY logo / search / login /// RESPONSIVE MISSING -->
     <header class="navbar">
         <div class="navegacion">
@@ -30,18 +31,75 @@
             </div>
 
             <!-- login -->
-            <a class="login_button login_link" href="login.html" target="_blank" rel="noopener noreferrer" alt="Login" title="Login">Login</a>
+            <a class="login_button login_link" href="../login/login.html" rel="noopener noreferrer" alt="Login" title="Login">Login</a>
         </div>
     </header>
 
-    <!-- login section -->
-    <section class="login">
-        <h4 class="login_title">Iniciar Sesion</h4>
-        <form action="" class="login_form">
-            <input type="email" name="email" id="email" placeholder="Escriba su correo electronico" class="login_form_input"/>
-            <input type="password" name="password" id="password" placeholder="Escriba su contraseña" class="login_form_input"/>
-            <button type="submit" class="login_form_button">Entrar</button>
-        </form>
+    <section class="details">
+        <div class="product_details">
+            
+            <img class="product_details_img details_image" src="../assets/imagenes/consolas/joystick-gamepad-nintendo.jpg" alt="Joystick Gamepad Nintendo X 2 Unidades" title="Joystick Gamepad Nintendo X 2 Unidades">
+
+            <div class="product_details_text">
+                <h2 class="details_title">Joystick Gamepad Nintendo X 2 Unidades</h2>
+
+                <p class="details_price">$ 4.900</p>
+
+                <p class="details_text">Controles Retro USB similares a los de la consola Super Nintendo. Conexión Plug & Play no necesitas instalar drivers. Compatible con Windows y Mac.</p>
+                <p class="details_text">Se pueden utilizar en Raspberry Pi en todas su versiones y es compatible con Retropie y Recalbox. Longitud del cable 1,35 m aprox.</p>
+                <p class="details_text">Disponible con botones de color como la consola Japonesa o con botones violetas como la americana. El precio publicado corresponde a dos unidades.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="productos">
+
+        <h3 class="products_title">Productos similares</h3>
+
+        <div class="prodcuts_gallery_items">
+
+            <div class="product_item">
+                <img class="item_img" src="../assets/imagenes/consolas/joystick-replica-playstation-4.jpg" alt="Joystick Réplica De Playstation 4" title="Joystick Réplica De Playstation 4"/>
+                <h5 class="item_name">Joystick Réplica De Playstation 4</h5>
+                <p class="item_price">$ 8.749</p>
+                <a href="./" class="item_details">Ver Producto</a>
+            </div>
+
+            <div class="product_item">
+                <img class="item_img" src="../assets/imagenes/diversos/remera-atari.jpg" alt="Remera Unisex Atari" title="Remera Unisex Atari"/>
+                <h5 class="item_name">Remera Unisex Atari</h5>
+                <p class="item_price">$ 5.539</p>
+                <a href="../enconstruccion/enconstruccion.html" class="item_details">Ver Producto</a>
+            </div>
+
+            <div class="product_item last">
+                <img class="item_img" src="../assets/imagenes/consolas/gameboy-advance-recargable.jpg" alt="Gameboy Advance Recargable" title="Gameboy Advance Recargable"/>
+                <h5 class="item_name">Gameboy Advance Recargable</h5>
+                <p class="item_price">$ 24.419</p>
+                <a href="./itemtres.html" class="item_details">Ver Producto</a>
+            </div>
+
+            <div class="product_item last">
+                <img class="item_img" src="../assets/imagenes/consolas/consola-family.jpg" alt="Consola Family Retro 500 Juegos Incluidos" title="Consola Family Retro 500 Juegos Incluidos"/>
+                <h5 class="item_name">Consola Family Retro 500 Juegos Incluidos</h5>
+                <p class="item_price">$ 5.999</p>
+                <a href="./" class="item_details">Ver Producto</a>
+            </div>
+            
+            <div class="product_item">
+                <img class="item_img" src="../assets/imagenes/consolas/gameboy-advance-pokemon.jpg" alt="Game Boy Advance Nintendo Plateada" title="Game Boy Advance Nintendo Plateada"/>
+                <h5 class="item_name">Game Boy Advance Nintendo Plateada</h5>
+                <p class="item_price">$ 20.319</p>
+                <a href="./" class="item_details">Ver Producto</a>
+            </div>
+
+            <div class="product_item">
+                <img class="item_img" src="../assets/imagenes/consolas/consola-sega.jpg" alt="Consola Sega Retro Con 150 Juegos Incluidos" title="Consola Sega Retro Con 150 Juegos Incluidos"/>
+                <h5 class="item_name">Consola Sega Retro Con 150 Juegos Incluidos</h5>
+                <p class="item_price">$ 4.900</p>
+                <a href="./" class="item_details">Ver Producto</a>
+            </div>
+        </div>
     </section>
 
     <!-- logo / menu / contac form -->
@@ -93,5 +151,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/b95dc486b7.js" crossorigin="anonymous"></script>
+
 </body>
 </html>

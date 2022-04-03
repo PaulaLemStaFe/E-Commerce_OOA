@@ -1,18 +1,18 @@
 .banner {
+	align-items: flex-start;
     background-image: url(../imagenes/banner/banner-image.png);
-	width: 100%;
-	height: 50%;
-	background-repeat: no-repeat;
 	background-position: center center;
+	background-repeat: no-repeat;
 	background-size: cover;
+	color: #fff;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	color: #fff;
-	gap: 10px;
 	font-weight: 700;
+	gap: 10px;
+	height: 50%;
+	justify-content: center;
     margin: 6.5rem auto 0 auto;
+	width: 100%;
 }
 
 .banner_section {
@@ -67,8 +67,8 @@
 @media (min-width:451px) and (max-width:768px) {
 
     .banner {
-        width: 100%;
         height: 30%;
+        width: 100%;
     }
     
     .banner_section {
@@ -87,8 +87,8 @@
 @media (max-width: 450px) {
 
     .banner {
-        width: 100%;
         height: 25%;
+        width: 100%;
     }
     
     .banner_section {
