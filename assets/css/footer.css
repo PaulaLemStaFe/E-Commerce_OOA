@@ -5,8 +5,9 @@
 .derechos {
     background-color: #d5d4d4;
     bottom: 0;
-    font-size: 1.1em;
-    padding: 5px 5px 5px 5px;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
     position: fixed;
     text-align: center;
     width: 100%;

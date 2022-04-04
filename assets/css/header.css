@@ -15,7 +15,7 @@
     margin: 0 auto;
     max-width: 1920px;
     padding: 1.5rem 0;
-    width: 80%;
+    width: 90%;
 }
 
 /* search */
@@ -47,12 +47,11 @@
 }
 
 .login_button {
+    background-color: #d1deee;
     border: solid #2A7AE4 1px;
     border-radius: 5%;
-    background-color: #d1deee;
     color:#2A7AE4;
     cursor: pointer;
-    margin-left: auto;
     padding: 1rem 2.5rem;
     text-align: center;
     transition: all 1s;

@@ -49,6 +49,14 @@
     width: 15%;
 }
 
+.card_img {
+    transition: 1s all;
+}
+
+.card_img:hover {
+    transform: scale(1.45);
+}
+
 .car_text {
     font-size: 1rem;
     font-weight: 700;
