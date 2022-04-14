@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/header.css">
+    <link rel="stylesheet" href="../../assets/css/sectioncontact.css">
+    <link rel="stylesheet" href="./assets/css/addproducts.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
+    <title>AluraGeek - Agregar Producto</title>
+</head>
+
+<body>
+
+    <!-- READY logo / search / login /// RESPONSIVE MISSING -->
+    <header class="navbar">
+        <div class="navegacion">
+            <!-- logo -->
+            <div class="logo_img">
+                <a href="../../index.html"><img class="logo_image" src="../../assets/imagenes/header/Logo.png"
+                        alt="AluraGeek" title="AluraGeek"></a>
+            </div>
+
+            <!-- search -->
+            <div class="buscador">
+                <input class="input__buscador" type="text" placeholder="¿Que deseas buscar?">
+                <a class="input_icon" href="../../enconstruccion/enconstruccion.html" target="_blank"
+                    rel="noopener noreferrer"><i class="bi bi-search"></i></a>
+            </div>
+
+            <!-- login -->
+            <a class="login_button login_link" href="../login.html" target="_blank" rel="noopener noreferrer"
+                alt="Login" title="Login">Login</a>
+        </div>
+    </header>
+
+    <!-- add-product section -->
+    <section class="add_product">
+        <form action="" class="add_product__form" data-form>
+            <div class="add_product__title">
+                <h2 class="title">Agregar Nuevo Producto</h2>
+            </div>
+            
+            <div class="add_product__form__area">
+                <div class="form__area__add_file">
+                    <i class="bi bi-card-image"></i>
+                    <i class="bi bi-plus-lg"></i>
+                    <label for="select" class="label add_file__pc" alt="Agregue una imagen del producto" title="Agregue una imagen del producto">Arrastre para agregar una imagen para el producto
+                        <input id="select" type="file" class="add__product__select" multiple accept="image/*"/>
+                    </label>
+                    <label for="select" class="label add_file__mobile">Agregar una imagen para el producto
+                        <input id="select" type="file" class="add__product__select" multiple accept="image/*"/>
+                    </label>
+                </div>
+                
+                <p class="title text"> O </p>
+
+                <div class="form__area__button">
+                    <label for="select" class="label button__search_img" alt="Busque En Su Computador" title="Busque En Su Computador">Busque En Su Computador
+                        <input id="select" type="file" class="add__product__button" multiple accept="image/*"/>
+                    </label>    
+                </div>
+            </div>
+
+            <div class="add_product__input">
+                <div class="input__group">
+                    <label class="label" for="name">Nombre Del Producto</label>
+                    <input class="input" type="text" placeholder="Producto XYZ" required id="alt"/>
+                </div>
+
+                <div class="input__group">
+                    <label class="label" for="text">Precio Del Producto</label>
+                    <input class="input" type="text" placeholder="$ 500.00" required id="categoria"/>
+                </div>
+
+                <div class="input__group">
+                    <label class="label" for="text">Descripción Del Producto</label>
+                    <textarea class="input" required id="description"></textarea>
+                </div>
+
+                <input type="submit" class="input__add_product_button" value="Agregar Producto" data-send alt="Agregar Producto" title="Agregar Producto">
+            </div>
+        </form>
+    </section>
+
+    <!-- logo / menu / contac form -->
+    <section class="contact">
+        <div class="contact_content">
+            <!-- logo -->
+            <div class="contact_logo">
+                <img class="contact_logo_img" src="../../assets/imagenes/header/Logo.png" alt="AluraGeek"
+                    title="AluraGeek">
+            </div>
+
+            <!-- menu -->
+            <div class="contact_menu">
+                <ul class="menu">
+                    <li class="menu_item"><a class="menu_link" href="../../enconstruccion/enconstruccion.html"
+                            target="_blank" rel="noopener noreferrer" alt="Quiénes Somos" title="Quiénes Somos">Quiénes
+                            Somos</a></li>
+                    <li class="menu_item"><a class="menu_link" href="../../enconstruccion/enconstruccion.html"
+                            target="_blank" rel="noopener noreferrer" alt="Política De Privacidad"
+                            title="Política De Privacidad">Política De Privacidad</a></li>
+                    <li class="menu_item"><a class="menu_link" href="../../enconstruccion/enconstruccion.html"
+                            target="_blank" rel="noopener noreferrer" alt="Programa De Fidelidad"
+                            title="Programa De Fidelidad">Programa De Fidelidad</a></li>
+                    <li class="menu_item"><a class="menu_link" href="../../enconstruccion/enconstruccion.html"
+                            target="_blank" rel="noopener noreferrer" alt="Nuestras Tiendas"
+                            title="Nuestras Tiendas">Nuestras Tiendas</a></li>
+                    <li class="menu_item"><a class="menu_link" href="../../enconstruccion/enconstruccion.html"
+                            target="_blank" rel="noopener noreferrer" alt="Quiero Ser Franquiciado"
+                            title="Quiero Ser Franquiciado">Quiero Ser Franquiciado</a></li>
+                    <li class="menu_item"><a class="menu_link" href="../../enconstruccion/enconstruccion.html"
+                            target="_blank" rel="noopener noreferrer" alt="Anuncie Aquí" title="Anuncie Aquí">Anuncie
+                            Aquí</a></li>
+                </ul>
+            </div>
+
+            <!-- form -->
+            <div class="contact_form">
+                <div class="contact_form__title">
+                    <h6 class="title">Hable con nosotros</h6>
+                </div>
+
+                <div class="contact_form_area">
+                    <label class="contact_form__label" for="name">Nombre</label>
+                    <input name="name" type="text" class="contact_form__input" id="nombre"
+                        placeholder="María Paula Lemos">
+                </div>
+
+                <div class="contact_form__menssage">
+                    <textarea name="mensaje" id="mensaje" class="menssage" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+
+                <a class="contact_form__button send_message__button" href="../../enconstruccion/enconstruccion.html"
+                    alt="Enviar Mensaje" title="Enviar Mensaje">Enviar Mensaje</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer / pie de pagina -->
+    <footer class="footer">
+        <div class="derechos">
+            <p>Desarrollado Por María Paula Lemos | 2022</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b95dc486b7.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
