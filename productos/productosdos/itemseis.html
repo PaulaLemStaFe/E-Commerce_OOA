@@ -128,17 +128,20 @@
                     <h6 class="title">Hable con nosotros</h6>
                 </div>
 
-                <div class="contact_form_area">
-                    <label class="contact_form__label" for="name">Nombre</label>
-                    <input name="name" type="text" class="contact_form__input" id="nombre"
-                        placeholder="María Paula Lemos">
-                </div>
-
-                <div class="contact_form__menssage">
-                    <textarea name="mensaje" id="mensaje" class="menssage" placeholder="Escribe tu mensaje"></textarea>
-                </div>
-
-                <a class="contact_form__button send_message__button" href="../../enconstruccion/enconstruccion.html" alt="Enviar Mensaje" title="Enviar Mensaje">Enviar Mensaje</a>
+                <form class="contact_form">
+                    <div class="contact_form_area input-container">
+                        <label class="contact_form__label input-label" for="name">Nombre</label>
+                        <input name="name" type="text" class="contact_form__input input-padron" id="name" required minlength="4" maxlength="40" data-tipo="name" placeholder="María Paula Lemos">
+                        <span class="mensaje-error">Este campo no es válido</span>
+                    </div>
+    
+                    <div class="contact_form__menssage input-container">
+                        <textarea name="message" id="message" class="menssage input-padron" required maxlength="120" data-tipo="message" placeholder="Escribe tu mensaje"></textarea>
+                        <span class="mensaje-error">Este campo no es válido</span>
+                    </div>
+    
+                    <input type="submit" value="Enviar Mensaje" class="contact_form__button send_message__button enviar" alt="Enviar Mensaje" title="Enviar Mensaje">
+                </form>
             </div>
         </div>
     </section>
@@ -151,6 +154,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/b95dc486b7.js" crossorigin="anonymous"></script>
+    <script src="../../assets/js/app.js"></script>
 
 </body>
 </html>

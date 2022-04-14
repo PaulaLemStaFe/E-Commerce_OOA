@@ -21,7 +21,7 @@
 .menu {
     display: flex;
     flex-direction: column;
-    gap: 1.7rem;
+    gap: 2.5rem;
 }
 
 .menu_item {
@@ -45,7 +45,7 @@
 .contact_form {
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.8rem;
 }
 
 .contact_form__title {
@@ -96,8 +96,33 @@
     width: 35rem;
 }
 
+.mensaje-error {
+    display: none;
+}
+
+.input-container-invalid {
+    margin-bottom: 0.5rem;
+}
+
+.input-container-invalid .input-padron {
+    border-bottom: 2px solid #df2525;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #F6EDD8;
+    margin: 0 0 5px;
+}
+
+.input-container-invalid .input-label {
+    color: #df2525;
+}
+
+.input-container-invalid .mensaje-error {
+    color: #D35244;
+    display: block;
+}
+
 .contact_form__button {
     background-color: #2A7AE4;
+    border: none;
     border-radius: 5%;
     color:#FFFFFF;
     cursor: pointer;
