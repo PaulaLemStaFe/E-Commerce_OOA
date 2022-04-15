@@ -1,5 +1,9 @@
+.buscador, .login_button {
+    display: none;
+}
+
 .add_product {
-    background: #e5e5e5;
+    background-color: #F5F5F5;
     color: #464646;
     padding-bottom: 2rem;
     padding-top: 7rem;
