@@ -107,7 +107,6 @@
 .input-container-invalid .input-padron {
     border-bottom: 2px solid #df2525;
     border-radius: 7px;
-    box-shadow: 0 0 10px #F6EDD8;
     margin: 0 0 5px;
 }
 
@@ -116,7 +115,7 @@
 }
 
 .input-container-invalid .mensaje-error {
-    color: #D35244;
+    color: #df2525;
     display: block;
 }
 

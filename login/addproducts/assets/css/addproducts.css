@@ -152,17 +152,29 @@
     padding-left: 1%;
 }
 
-.price {
-    border: none;
+#categoria {
     font-size: 1.2rem;
+    margin-top: 1rem;
+    width: 97%;
 }
 
 .input__group .input:focus, .price:focus {
+    background-color: white;
     outline: none;
 }
 
 .input__group #description {
     height: 8rem;
+}
+
+.error {
+    background-color: #F5F5F5;
+    color: #df2525;
+    font-size: 1.1rem;
+}
+
+.input-container-invalid {
+    margin-bottom: 0 !important;
 }
 
 .input__add_product_button {
