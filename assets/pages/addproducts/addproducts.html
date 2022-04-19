@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/components/header.css">
+    <link rel="stylesheet" href="addproducts.css">
+    <link rel="stylesheet" href="../../css/components/sectioncontact.css">
+    <link rel="stylesheet" href="../../css/components/footer.css">
+    <title>AluraGeek - Agregar Producto</title>
+</head>
+
+<body>
+
+    <!-- READY logo / search / login /// RESPONSIVE MISSING -->
+    <header-component></header-component>
+
+    <!-- add-product section -->
+    <section class="add_product">
+        <form action="" class="add_product__form" data-form>
+            <div class="add_product__title">
+                <h2 class="title">Agregar Nuevo Producto</h2>
+            </div>
+            
+            <div class="add_product__form__area">
+                <div class="form__area__add_file input-container">
+                    <i class="bi bi-card-image"></i>
+                    <label for="select" class="label add_file__pc" alt="Agregue una imagen del producto" title="Agregue una imagen del producto">Arrastre para agregar una imagen para el producto
+                        <input id="select" type="file" class="add__product__select input-padron" multiple accept="image/*" required data-tipo="img"/>
+                    </label>
+                    <i class="bi bi-plus-lg"></i>
+                    <label for="select" class="label add_file__mobile">Agregar una imagen para el producto
+                        <input id="select" type="file" class="add__product__select input-padron" multiple accept="image/*" required data-tipo="img"/>
+                    </label>
+                    <span class="mensaje-error error">Este campo no debe estar vacío</span>
+                </div>
+                
+                <p class="title text"> O </p>
+
+                <div class="form__area__button">
+                    <label for="select" class="label button__search_img" alt="Busque En Su Computador" title="Busque En Su Computador">Busque En Su Computador
+                        <input id="select" type="file" class="add__product__button" multiple accept="image/*"/>
+                    </label>    
+                </div>
+            </div>
+
+            <div class="add_product__input">
+                <div class="input__group input-container">
+                    <label class="label input-label" for="text">Nombre Del Producto</label>
+                    <input class="input input-padron input-container" name="product_name" type="text" placeholder="Producto XYZ" required id="product_name" minlength="4" maxlength="40" data-tipo="product_name"/>
+                    <span class="mensaje-error error">Este campo no es válido</span>
+                </div>
+
+                <div class="input__group input-container">
+                    <span class="" data-tipo="price">
+                        <label class="label input-label" for="number">Precio Del Producto</label><br class="input__group">
+                        <span class="sign input-label">$</span>
+                        <input class="price input input-padron" name="price" data-tipo="price" type="text" placeholder="12.345" required id="categoria" pattern="(\d{1,3}\.)?\d{3}"/>
+                        <span class="mensaje-error error">Este campo no es válido</span>
+                    </span>
+                </div>
+
+                <div class="input__group input-container">
+                    <label class="label input-label" for="text">Descripción Del Producto</label>
+                    <textarea class="input input-padron" required name="description" id="description" data-tipo="description"></textarea>
+                    <span class="mensaje-error error">Este campo no es válido</span>
+                </div>
+
+                <input type="submit" class="input__add_product_button" value="Agregar Producto" data-send alt="Agregar Producto" title="Agregar Producto">
+            </div>
+        </form>
+    </section>
+
+    <!-- logo / menu / contac form -->
+    <contact-component></contact-component>
+
+    <!-- footer / pie de pagina -->
+    <footer-component></footer-component>
+
+    <script src="https://kit.fontawesome.com/b95dc486b7.js" crossorigin="anonymous"></script>
+    <script src="../../js/components/header.js" type="text/javascript" defer></script>
+    <script src="../../js/components/contact.js" type="text/javascript" defer></script>
+    <script src="../../js/components/footer.js" type="text/javascript" defer></script>
+    <script src="../../js/app.js" type="module"></script>
+    
+</body>
+
+</html>
