@@ -1,16 +1,13 @@
 const contactTemplate = document.createElement('template');
 
-var urlImageHtml = '';
+var urlImageHtml = 'https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/header/Logo.png';
 var urlMenuHtml = '';
 
 if (document.title == "AluraGeek") {
-    urlImageHtml = "./assets/imagenes/header/Logo.png";
     urlMenuHtml = "./assets/pages/enconstruccion/enconstruccion.html";
 } else if (document.title == "AluraGeek - All Products" | document.title == "AluraGeek - Login" | document.title == "AluraGeek - Editar Producto" | document.title == "AluraGeek - Agregar Producto") {
-    urlImageHtml = "../../imagenes/header/Logo.png";
     urlMenuHtml = "../enconstruccion/enconstruccion.html";
 } else if (document.title == "AluraGeek - Detalles") {
-    urlImageHtml = "../../../imagenes/header/Logo.png";
     urlMenuHtml = "../../enconstruccion/enconstruccion.html";
 }
 

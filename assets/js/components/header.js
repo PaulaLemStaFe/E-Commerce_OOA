@@ -1,23 +1,20 @@
 const headerTemplate = document.createElement('template');
 
 var urlIndexHtml = '';
-var urlImageHtml = '';
+var urlImageHtml = 'https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/header/Logo.png';
 var urlSearchHtml = '';
 var urlLoginHtml = '';
 
 if (document.title == "AluraGeek") {
     urlIndexHtml = "./index.html";
-    urlImageHtml = "./assets/imagenes/header/Logo.png";
     urlSearchHtml = "./assets/pages/enconstruccion/enconstruccion.html";
     urlLoginHtml = "./assets/pages/login/login.html";
 } else if (document.title == "AluraGeek - All Products" | document.title == "AluraGeek - Login" | document.title == "AluraGeek - En Construcción" | document.title == "AluraGeek - Editar Producto" | document.title == "AluraGeek - Agregar Producto") {
     urlIndexHtml = "../../../index.html";
-    urlImageHtml = "../../imagenes/header/Logo.png";
     urlSearchHtml = "../enconstruccion/enconstruccion.html";
     urlLoginHtml = "../login/login.html";
 } else if (document.title == "AluraGeek - Detalles") {
     urlIndexHtml = "../../../../index.html";
-    urlImageHtml = "../../../imagenes/header/Logo.png";
     urlSearchHtml = "../../enconstruccion/enconstruccion.html";
     urlLoginHtml = "../../login/login.html";
 }

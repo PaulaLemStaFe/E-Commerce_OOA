@@ -89,15 +89,12 @@
 }
 
 .form__area__button {
-    font-weight: 700;
-}
-
-.form__area__button {
     background-color: #d1deee;
     border: solid #2A7AE4 2px;
     border-radius: 15px;
     color:#2A7AE4;
     cursor: pointer;
+    font-weight: 700;
     padding: 1rem;
     text-align: center;
     transition: all 1s;
@@ -110,12 +107,8 @@
     transform: scale(1.10);
 }
 
-.button__search_img, .add__product__button {
+.button__search_img {
     cursor: pointer;
-}
-
-.add__product__button {
-    position: relative;
 }
 
 .add_product__input {
@@ -148,8 +141,7 @@
     font-size: 1.2rem;
     height: 1.1rem;
     margin-top: 0.5rem;
-    padding-bottom: 1%;
-    padding-left: 1%;
+    padding: 1% 0 1% 1%;
 }
 
 #categoria {
@@ -164,6 +156,7 @@
 }
 
 .input__group #description {
+    font-family: 'Raleway', sans-serif;
     height: 8rem;
 }
 
@@ -267,6 +260,10 @@
 
     .add_product__input {
         width: 90%;
+    }
+
+    #categoria {
+        width: 95%;
     }
 
     .input__add_product_button {
