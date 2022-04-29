@@ -88,6 +88,10 @@
     justify-content: space-around;
 }
 
+.item_link {
+    display: none;
+}
+
 .item_id {
     font-size: 1.03rem;
 }

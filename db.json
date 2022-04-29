@@ -111,7 +111,7 @@
     {
       "idProduct": 10,
       "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/consola-sega.jpg",
-      "title": "Consola Sega Retro Con 150 Juegos Incluidos",
+      "title": "Consola Sega Retro 150 Juegos Incluidos",
       "price": "4.900",
       "link": "./assets/pages/productos/productdetails.html?idproduct=10",
       "details01": "Consola Sega Apevtech 16 Bits Retro.",
@@ -146,7 +146,7 @@
     {
       "idProduct": 13,
       "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/remera-atari.jpg",
-      "title": "Remera Unisex Atari",
+      "title": "Remera Algodón Unisex Atari",
       "price": "5.539",
       "link": "./assets/pages/productos/productdetails.html?idproduct=13",
       "details01": "Remera confeccionada con tela de primera calidad, Algodón 100% jersey 24/1 de textura suave y liviana estampadas en impresión digital DTG (impresión directa sobre la tela).",

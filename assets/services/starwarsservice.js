@@ -7,7 +7,7 @@ const listStarWars = () => fetch("http://localhost:3000/productstarwars").then (
 listStarWars()
     .then((data) => {
         data.forEach((product) => {
-            const newProduct = crearCard(product.img, product.title, product.price, product.idproduct);
+            const newProduct = crearCard(product.img, product.title, product.price, product.idproduct, product.article);
             cardListStarWars.appendChild(newProduct);
         });
     })

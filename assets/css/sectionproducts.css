@@ -68,8 +68,14 @@
 }
 
 .item_img {
+    display: flex;
+}
+
+.img {
+    display: flex;
 	object-fit: cover;
     padding-bottom: 0.5rem;
+    position: inherit;
     width: 100%;
 }
 
@@ -83,6 +89,10 @@
 	font-size: 1.05rem;
 	font-weight: 700;
 	padding: 0 0.5rem;
+}
+
+.item_footer {
+    display: none;
 }
 
 .item_link {
