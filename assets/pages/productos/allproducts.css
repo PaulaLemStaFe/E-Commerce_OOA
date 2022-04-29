@@ -29,55 +29,6 @@
 	padding: 1% 3% 3% 3%;
 }
 
-.product_item {
-	box-shadow: 0px 1px 5px 0px rgb(28 29 4 / 50%);
-    display: flex;
-	flex-direction: column;
-	gap: 0.7rem;
-	margin-bottom: 15px;
-	padding-bottom: 0.5rem;
-	transition: 1s all;
-}
-
-.product_item:hover {
-	transform: scale(1.15);
-}
-
-.item_img {
-	object-fit: cover;
-    padding-bottom: 0.5rem;
-    width: 100%;
-}
-
-.item_title {
-	font-size: 1.1rem;
-    font-weight: 500;
-	padding: 0 0.5rem;
-}
-
-.item_price {
-	font-size: 1.05rem;
-	font-weight: 700;
-	padding: 0 0.5rem;
-}
-
-.item_link {
-    color: #2a7ae4;
-	cursor: pointer;
-	font-size: 1rem;
-	font-weight: 700;
-	line-height: 1rem;
-	padding: 0 0.5rem;
-    text-decoration: none;
-	transition: 1s all;
-}
-
-.item_link:hover {
-    color: darkblue;
-    text-decoration: underline;
-    transform: scale(1.05);
-}
-
 .contact {
     margin-top: 0;
 }
