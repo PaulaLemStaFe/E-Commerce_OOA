@@ -1,16 +1,213 @@
 {
-  "posts": [
+  "user": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "email": "admin@admin.com",
+      "password": "Admin01Admin"
     }
   ],
-  "comments": [
+  "productstarwars": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "idproduct": 1,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Droide.jpg",
+      "title": "Droide Electrónico Con Control Remoto",
+      "price": "4.189",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=1",
+      "details01": "Droide d-o hecho de cachivaches en el taller de un droidsmith; d-o es una ruedecilla impresionable que se obsesiona con bb-8.",
+      "details02": "Los niños a partir de 5 años pueden imaginar las escenas de la galaxia de Star Wars con este juguete d-o controlado por mando a distancia, inspirado en la película de Star Wars: el ascenso de Skywalker.",
+      "details03": "Control remoto que permite que este droide ruede en cualquier dirección y realice giros de 360 grados mira cómo se balancea la cabeza del droide d-o hacia arriba y abajo y de lado a lado mientras da carreras de un lado a otro emitiendo sonidos electrónicos de droide característicos de este personaje.",
+      "article": "#010101"
+    },
+    {
+      "idProduct": 2,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Jet_Trooper.jpg",
+      "title": "Soldado Jet De La Primera Orden",
+      "price": "3.339",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=2",
+      "details01": "Figura de acción de Soldado jet de asalto especializado de la primera orden, se lanzan a la batalla equipados con mochilas propulsoras ágiles.",
+      "details02": "Esta figura de acción de Star Wars The Black Series incluye un accesorio inspirado en el Soldado Jet de la Primera Orden adecuado para cualquier colección de Star Wars. Articulación y detalles premium.",
+      "details03": "Los fans y coleccionistas de Star Wars pueden exhibir en su colección de figuras de acción y vehículos esta figura altamente articulada (con 4 extremidades completamente articuladas), que presenta una decoración premium.",
+      "article": "#010102"
+    },
+    {
+      "idProduct": 3,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Casco_Luke_Skywalker.jpg",
+      "title": "Casco Electrónico Luke Skywalker",
+      "price": "73.885",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=3",
+      "details01": "Casco electrónico premium; con gran lujo de detalles, un diseño inspirado en las películas, interior acolchado, luces, y efectos de sonido, esta réplica a escala del icónico casco de Luke Skywalker es una óptima incorporación a la colección de cualquier fan.",
+      "details02": "Luces y efectos de sonido de simulación de batalla; los 3 altavoces internos crean una experiencia de sonido envolvente y las luces LED sincronizadas dentro del visor simulan los lanzamientos de vehículos enemigos.",
+      "details03": "Batalla de Yavin o Batalla de Hoth: cambia el interruptor en el interior del casco para elegir entre una simulación en que pilotas el X-Wing en la Batalla de Yavin, o un aerodeslizador en la Batalla de Hoth.",
+      "article": "#010103"
+    },
+    {
+      "idProduct": 4,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Darth_Vader.jpg",
+      "title": "Figura De Acción De Darth Vader",
+      "price": "5.389",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=4",
+      "details01": "Darth Vader, después de la destrucción de la Estrella de la Muerte; empezó a obsesionarse con encontrar a Luke Skywalker. Finalmente localizaron la base de los rebeldes en el remoto planeta helado Hoth.",
+      "details02": "Accesorio inspirado en el personaje de la película. Esta figura de acción de Star Wars The Black Series incluye un accesorio inspirado en Darth Vader, ideal para sumar a cualquier colección de Star Wars.",
+      "details03": "Articulación y detalles premium. Los fans y los coleccionistas de Star Wars pueden exhibir en su colección de figuras de acción y vehículos esta figura altamente articulada (con 4 extremidades completamente articuladas), que presenta una decoración premium.",
+      "article": "#010104"
+    },
+    {
+      "idProduct": 5,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Casco_Stormtrooper.jpg",
+      "title": "Casco Electrónico Stormtrooper",
+      "price": "31.889",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=5",
+      "details01": "Casco electrónico de Stormtrooper Imperial con modulador de voz que es una réplica exacta del casco que llevan las tropas de asalto de la película Star Wars: Rogue One.",
+      "details02": "Al pulsar el botón, tu voz se transformará en la de uno de los Stormtrooper Imperiales de cara oculta al servicio del Imperio Galáctico. Enfundados en su armadura blanca, estos soldados de las tropas de asalto reciben un duro y estricto adiestramiento y son los más leales guardianes protectores del Imperio.",
+      "details03": "Gracias a su característico diseño y fiel reproducción de accesorio, es perfecto exponente de gran calidad y realismo de la saga Star Wars. Por lo que es una pieza muy codiciada por los aficionados de Star Wars, tanto niños como adultos.",
+      "article": "#010105"
+    },
+    {
+      "idProduct": 6,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_The_Mandalorian.jpg",
+      "title": "Figura De Acción The Mandalorian",
+      "price": "3.079",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=6",
+      "details01": "¡The Mandalorian está desgastado por la guerra y es muy reservado, un formidable cazarrecompensas en una galaxia cada vez más peligrosa! La figura de 15 cm está diseñada al detalle para parecerse al personaje de la serie de televisión de acción real The Mandalorian, además presenta detalles premium y múltiples puntos de articulación.",
+      "details02": "Su cuerpo está blindado por la armadura de beskar; su rostro se oculta detrás de una máscara con una visera en forma de T y su pasado está envuelto en un aura de misterio.",
+      "details03": "Esta figura de acción incluye accesorios, ideal para sumar a cualquier colección de Star Wars.",
+      "article": "#010106"
+    }
+  ],
+  "productsconsolas": [
+    {
+      "idProduct": 7,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/consola-family.jpg",
+      "title": "Consola Family Retro 500 Juegos Incluidos",
+      "price": "5.999",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=7",
+      "details01": "Consola de 8 bits, con selección de 500 juegos incorporados. ¡Conéctalo a tu TV y juga! Esta excelente consola Retro de Level UP, cuenta con Conexión AV, Sonido estéreo, 2 joysticks de 6 botones, Pad direccional de 8 posiciones.",
+      "details02": "La consola incluye 500 juegos built in, no acepta cartuchos de juegos. Los mismos no se pueden modificar, eliminar o agregar. ¡Tenés muchos títulos para jugar hasta el cansancio!",
+      "details03": "ESPECIFICACIONES: Conexión HFMI, Procesador de 8 bits, Sonido estéreo, Botón de encendido y reset, 2 joysticks de 6 botones c/u, Pad direccional de 8 posiciones, Selección de 500 títulos incorporados, No usa baterías: se conecta a una fuente.",
+      "article": "#010201"
+    },
+    {
+      "idProduct": 8,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/joystick-gamepad-nintendo.jpg",
+      "title": "Joystick Gamepad Nintendo X 2 Unidades",
+      "price": "4.900",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=8",
+      "details01": "Controles Retro USB similares a los de la consola Super Nintendo. Conexión Plug & Play no necesitas instalar drivers. Compatible con Windows y Mac.",
+      "details02": "Se pueden utilizar en Raspberry Pi en todas su versiones y es compatible con Retropie y Recalbox. Longitud del cable 1,35 m aprox.",
+      "details03": "Disponible con botones de color como la consola Japonesa o con botones violetas como la americana. El precio publicado corresponde a dos unidades.",
+      "article": "#010202"
+    },
+    {
+      "idProduct": 9,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/gameboy-advance-recargable.jpg",
+      "title": "Gameboy Advance Recargable",
+      "price": "24.419",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=9",
+      "details01": "Si extrañas la sensación reconfortante de Gameboy Advance, este es el ideal para ti. Ese gran factor de forma del GBA combinado con la actualización de la pantalla LCD IPS v2 son una combinación perfecta.",
+      "details02": "Esta pantalla LCD te permite ajustar el brillo en 10 niveles, lo cual es excelente para justo antes de acostarse. Además, si deseas mejorarlo, puedes optar por la batería recargable para ahorrar un viaje a la tienda.",
+      "details03": "Las actualizaciones: Auténtica pantalla retroiluminada LCD IPS v2 de juego divertido con 10 lvl Adj, Nueva lente de vidrio templado, Shell y botones frescos, Módulo de batería recargable opcional.",
+      "article": "#010203"
+    },
+    {
+      "idProduct": 10,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/consola-sega.jpg",
+      "title": "Consola Sega Retro Con 150 Juegos Incluidos",
+      "price": "4.900",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=10",
+      "details01": "Consola Sega Apevtech 16 Bits Retro.",
+      "details02": "Funciona con todo tipo de televisores (LCD, Smart, Tubo, etc.). También se pueden utilizar los cartuchos que se utilizaban en la antigua consola.",
+      "details03": "Reviví los mejores momentos de tu infancia con este producto que incluye: Consola, 2 Joystick, 1 Transformador, 1 Cable audio y video, 1 Cartucho de 150 juegos.",
+      "article": "#010204"
+    },
+    {
+      "idProduct": 11,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/joystick-replica-playstation-4.jpg",
+      "title": "Joystick Réplica De Playstation 4",
+      "price": "8.749",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=11",
+      "details01": "Brillante, alegre y divertida, la nueva edición Berry Blue aporta un nuevo sabor a la línea de control inalámbrico Dualshock 4. Control de precisión: la sensación, la forma y la sensibilidad mejoradas de este controlador ofrece a los jugadores un control absoluto sobre todos los juegos en el sistema PlayStation 4.",
+      "details02": "Conectividad inalámbrica: Bluetooth 2.1 + EDR. Compartir al alcance de tu mano: la adición del botón de compartir hace que compartir tus mejores momentos de juego sea tan fácil como pulsar un botón. Nuevas formas de jugar: características revolucionarias como el panel táctil, barra de luz integrada y altavoz integrado ofrecen nuevas formas emocionantes de experimentar e interactuar con tus juegos.",
+      "details03": "Carga eficiente: este controlador se puede recargar fácilmente conectándolo a tu sistema PlayStation 4, incluso en modo de descanso o con cualquier cargador estándar con un cable USB.",
+      "article": "#010205"
+    },
+    {
+      "idProduct": 12,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/gameboy-advance-pokemon.jpg",
+      "title": "Game Boy Advance Nintendo Plateada",
+      "price": "20.319",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=12",
+      "details01": "Cuenta con un procesador más potente que cualquier sistema portátil anterior, para un juego más rápido y suave. La pantalla a todo color de alta resolución hace que el juego salte hacia ti, un 50% más grande que el color Game Boy.",
+      "details02": "Dos nuevos botones, L y R, te ofrecen más opciones de control y juego. La duración prolongada de la batería te permite jugar hasta 15 horas con un par de baterías AA.",
+      "details03": "Los paquetes de juego compactos te permiten almacenar tu progreso de juego y son más pequeños que los paquetes de color Game Boy.",
+      "article": "#010206"
+    }
+  ],
+  "productsdiversos": [
+    {
+      "idProduct": 13,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/remera-atari.jpg",
+      "title": "Remera Unisex Atari",
+      "price": "5.539",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=13",
+      "details01": "Remera confeccionada con tela de primera calidad, Algodón 100% jersey 24/1 de textura suave y liviana estampadas en impresión digital DTG (impresión directa sobre la tela).",
+      "details02": "Toda la prenda se arma en Overlock de 4 hilos reforzando costuras de seguridad. Cuello de reeb fino al tono.",
+      "details03": "Tirillera de hombro a hombro con hilos de Algodón. Tapacostura 2AG Fino con hilos de algodón en mangas y cintura.",
+      "article": "#010301"
+    },
+    {
+      "idProduct": 14,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/taza-gameboy-cambia-color.jpg",
+      "title": "Taza Gameboy Cambia Color",
+      "price": "999",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=14",
+      "details01": "Jarra de cerámica. No apta para microondas ni lavavajillas.",
+      "details02": "El dibujo cambia al llenarla con líquido caliente.",
+      "details03": "Material : 100% Cerámica.",
+      "article": "#010302"
+    },
+    {
+      "idProduct": 15,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/super-poser-jazwares-shadow-sonic-raro.jpg",
+      "title": "Super Poser Jazwares Shadow Sonic Raro",
+      "price": "5.545",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=15",
+      "details01": "De los exitosos videojuegos de Sega, aquí viene la serie de figuras de acción Super Posers Sonic the Hedgehog.",
+      "details02": "Muy articulado (manos que se abren y cierran (¡para que pueda aferrarse a las cosas!), muñecas, pies, rodillas / codos, cintura, espinas, incluso sus orejas), figura de 17 cm de Shadow the Hedgehog.",
+      "details03": "La figura está completamente articulada con 25 puntos de articulación.",
+      "article": "#010303"
+    },
+    {
+      "idProduct": 16,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/remera-joystick-retro-nintendo-85.png",
+      "title": "Remera Joystick Retro Nintendo 85",
+      "price": "2.500",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=16",
+      "details01": "Remera unisex confeccionada con materiales 100% nobles.",
+      "details02": "Algodón premium, suave al tacto.",
+      "details03": "Estampa Serigrafía.",
+      "article": "#010304"
+    },
+    {
+      "idProduct": 17,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/taza-de-playstation-del-mando-dualShock-4.jpg",
+      "title": "Taza De Playstation Del Mando DualShock 4",
+      "price": "1.699",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=17",
+      "details01": "Taza de 330 ml aproximadamente oficial de Playstation.",
+      "details02": "Con el mango diseñado como un mando DualShock 4.",
+      "details03": "No compatible con microondas o lavavajillas.",
+      "article": "#010305"
+    },
+    {
+      "idProduct": 18,
+      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/bandai-hobby%E2%80%93pokemon-pikachu.jpg",
+      "title": "Bandai Hobby Pokemon Pikachu",
+      "price": "3.069",
+      "link": "./assets/pages/productos/productdetails.html?idproduct=18",
+      "details01": "PIKACHU Pokemon, Bandai Spirits Pokémon Model Kit Rápido. Un simple kit para montar Pikachu.",
+      "details02": "Un kit rápido de modelo de Pokémon. Un kit simple donde puedes imaginar instantáneamente el producto terminado mirando los corredores.",
+      "details03": "Incluye 15 piezas y un juego de pegatinas de aluminio.",
+      "article": "#010306"
     }
   ],
   "profile": {
