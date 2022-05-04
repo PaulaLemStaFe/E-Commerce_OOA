@@ -1,8 +1,8 @@
 const inputs = document.querySelectorAll(".input-padron");
 
 const contact = document.querySelector('contact-component');
-const input = contact.shadowRoot.querySelector('input')
-const textarea = contact.shadowRoot.querySelector('textarea')
+const input = contact.shadowRoot.querySelector('input');
+const textarea = contact.shadowRoot.querySelector('textarea');
 
 const inputsContact = [];
 inputsContact.push(input);
@@ -89,8 +89,8 @@ function mostrarMensajeDeError (tipoDeInput, input) {
     tipoDeErrores.forEach ( (error) => {
         if (input.validity[error]) {
             mensaje = mensajesDeError[tipoDeInput][error];
-        };
+        }
     });
 
     return mensaje;
-};
+}

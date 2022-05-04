@@ -5,7 +5,7 @@ var urlMenuHtml = '';
 
 if (document.title == "AluraGeek") {
     urlMenuHtml = "./assets/pages/enconstruccion/enconstruccion.html";
-} else if (document.title == "AluraGeek - All Products" | document.title == "AluraGeek - Login" | document.title == "AluraGeek - Editar Producto" | document.title == "AluraGeek - Agregar Producto") {
+} else if (document.title == "AluraGeek - All Products" | document.title == "AluraGeek - Login" | document.title == "AluraGeek - Editar Producto" | document.title == "AluraGeek - Agregar Producto" | document.title == "AluraGeek - Detalles") {
     urlMenuHtml = "../enconstruccion/enconstruccion.html";
 } else if (document.title == "AluraGeek - Detalles") {
     urlMenuHtml = "../../enconstruccion/enconstruccion.html";
@@ -335,12 +335,12 @@ contactTemplate.innerHTML = `
             <!-- menu -->
             <div class="contact_menu">
                 <ul class="menu">
-                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} target="_blank" rel="noopener noreferrer" alt="Quiénes Somos" title="Quiénes Somos">Quiénes Somos</a></li>
-                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} target="_blank" rel="noopener noreferrer" alt="Política De Privacidad" title="Política De Privacidad">Política De Privacidad</a></li>
-                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} target="_blank" rel="noopener noreferrer" alt="Programa De Fidelidad" title="Programa De Fidelidad">Programa De Fidelidad</a></li>
-                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} target="_blank" rel="noopener noreferrer" alt="Nuestras Tiendas" title="Nuestras Tiendas">Nuestras Tiendas</a></li>
-                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} target="_blank" rel="noopener noreferrer" alt="Quiero Ser Franquiciado" title="Quiero Ser Franquiciado">Quiero Ser Franquiciado</a></li>
-                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} target="_blank" rel="noopener noreferrer" alt="Anuncie Aquí" title="Anuncie Aquí">Anuncie Aquí</a></li>
+                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} rel="noopener noreferrer" alt="Quiénes Somos" title="Quiénes Somos">Quiénes Somos</a></li>
+                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} rel="noopener noreferrer" alt="Política De Privacidad" title="Política De Privacidad">Política De Privacidad</a></li>
+                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} rel="noopener noreferrer" alt="Programa De Fidelidad" title="Programa De Fidelidad">Programa De Fidelidad</a></li>
+                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} rel="noopener noreferrer" alt="Nuestras Tiendas" title="Nuestras Tiendas">Nuestras Tiendas</a></li>
+                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} rel="noopener noreferrer" alt="Quiero Ser Franquiciado" title="Quiero Ser Franquiciado">Quiero Ser Franquiciado</a></li>
+                    <li class="menu_item"><a class="menu_link" href=${urlMenuHtml} rel="noopener noreferrer" alt="Anuncie Aquí" title="Anuncie Aquí">Anuncie Aquí</a></li>
                 </ul>
             </div>
 

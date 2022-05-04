@@ -5,6 +5,14 @@ import { productsDiversos } from "../services/diversosservie.js";
 export const crearCard = (img, title, price, idproduct, article) => {
     const newCard = document.createElement('div');
     newCard.setAttribute("class", "product_item");
+
+    var urlDetails = '';
+
+    if (document.title == "AluraGeek") {
+        urlDetails = "./assets/pages/productos/productdetails.html?idproduct=${idproduct}";
+    } else if (document.title == "AluraGeek - All Products" | document.title == "AluraGeek - Detalles") {
+        urlDetails = "productdetails.html?idproduct=${idproduct";
+    }
     
     const cardContent = 
     `<div class="item_img">
@@ -24,7 +32,7 @@ export const crearCard = (img, title, price, idproduct, article) => {
             <i class="bi bi-pencil-fill" alt="Editar" title="Editar"></i>
         </div>
     </div>
-    <a class="item_link" href="./assets/pages/productos/productdetails.html?idproduct=${idproduct}" target="_blank" rel="noopener noreferrer" alt="Ver Producto" title="Ver Producto">Ver Producto</a>
+    <a class="item_link" href="${urlDetails}" rel="noopener noreferrer" alt="Ver Producto" title="Ver Producto">Ver Producto</a>
      `;
      newCard.innerHTML = cardContent;
      return newCard;
