@@ -9,7 +9,7 @@
   "productstarwars": [
     {
       "idproduct": 1,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Droide.jpg",
+      "img": "https://acortar.link/J8BOHY",
       "title": "Droide Electrónico Con Control Remoto",
       "price": "4.189",
       "link": "./assets/pages/productos/productdetails.html?idproduct=1",
@@ -20,7 +20,7 @@
     },
     {
       "idProduct": 2,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Jet_Trooper.jpg",
+      "img": "https://acortar.link/dDgOen",
       "title": "Soldado Jet De La Primera Orden",
       "price": "3.339",
       "link": "./assets/pages/productos/productdetails.html?idproduct=2",
@@ -31,7 +31,7 @@
     },
     {
       "idProduct": 3,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Casco_Luke_Skywalker.jpg",
+      "img": "https://acortar.link/s8zWHi",
       "title": "Casco Electrónico Luke Skywalker",
       "price": "73.885",
       "link": "./assets/pages/productos/productdetails.html?idproduct=3",
@@ -42,7 +42,7 @@
     },
     {
       "idProduct": 4,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Darth_Vader.jpg",
+      "img": "https://acortar.link/8mj42P",
       "title": "Figura De Acción De Darth Vader",
       "price": "5.389",
       "link": "./assets/pages/productos/productdetails.html?idproduct=4",
@@ -53,7 +53,7 @@
     },
     {
       "idProduct": 5,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_Casco_Stormtrooper.jpg",
+      "img": "https://acortar.link/FwNRxP",
       "title": "Casco Electrónico Stormtrooper",
       "price": "31.889",
       "link": "./assets/pages/productos/productdetails.html?idproduct=5",
@@ -64,7 +64,7 @@
     },
     {
       "idProduct": 6,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/star_wars/Star_Wars_The_Mandalorian.jpg",
+      "img": "https://acortar.link/1P63Tb",
       "title": "Figura De Acción The Mandalorian",
       "price": "3.079",
       "link": "./assets/pages/productos/productdetails.html?idproduct=6",
@@ -77,7 +77,7 @@
   "productsconsolas": [
     {
       "idProduct": 7,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/consola-family.jpg",
+      "img": "https://acortar.link/C5MK7c",
       "title": "Consola Family Retro 500 Juegos Incluidos",
       "price": "5.999",
       "link": "./assets/pages/productos/productdetails.html?idproduct=7",
@@ -88,7 +88,7 @@
     },
     {
       "idProduct": 8,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/joystick-gamepad-nintendo.jpg",
+      "img": "https://acortar.link/YT8cKM",
       "title": "Joystick Gamepad Nintendo X 2 Unidades",
       "price": "4.900",
       "link": "./assets/pages/productos/productdetails.html?idproduct=8",
@@ -99,7 +99,7 @@
     },
     {
       "idProduct": 9,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/gameboy-advance-recargable.jpg",
+      "img": "https://acortar.link/WGtpcM",
       "title": "Gameboy Advance Recargable",
       "price": "24.419",
       "link": "./assets/pages/productos/productdetails.html?idproduct=9",
@@ -110,7 +110,7 @@
     },
     {
       "idProduct": 10,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/consola-sega.jpg",
+      "img": "https://acortar.link/cq9UkK",
       "title": "Consola Sega Retro 150 Juegos Incluidos",
       "price": "4.900",
       "link": "./assets/pages/productos/productdetails.html?idproduct=10",
@@ -121,7 +121,7 @@
     },
     {
       "idProduct": 11,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/joystick-replica-playstation-4.jpg",
+      "img": "https://acortar.link/i9sbjB",
       "title": "Joystick Réplica De Playstation 4",
       "price": "8.749",
       "link": "./assets/pages/productos/productdetails.html?idproduct=11",
@@ -132,7 +132,7 @@
     },
     {
       "idProduct": 12,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/consolas/gameboy-advance-pokemon.jpg",
+      "img": "https://acortar.link/yqfkpc",
       "title": "Game Boy Advance Nintendo Plateada",
       "price": "20.319",
       "link": "./assets/pages/productos/productdetails.html?idproduct=12",
@@ -145,7 +145,7 @@
   "productsdiversos": [
     {
       "idProduct": 13,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/remera-atari.jpg",
+      "img": "https://acortar.link/fSbqZ7",
       "title": "Remera Algodón Unisex Atari",
       "price": "5.539",
       "link": "./assets/pages/productos/productdetails.html?idproduct=13",
@@ -156,7 +156,7 @@
     },
     {
       "idProduct": 14,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/taza-gameboy-cambia-color.jpg",
+      "img": "https://acortar.link/VnSpHr",
       "title": "Taza Gameboy Cambia Color",
       "price": "999",
       "link": "./assets/pages/productos/productdetails.html?idproduct=14",
@@ -167,7 +167,7 @@
     },
     {
       "idProduct": 15,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/super-poser-jazwares-shadow-sonic-raro.jpg",
+      "img": "https://acortar.link/JQEFoE",
       "title": "Super Poser Jazwares Shadow Sonic Raro",
       "price": "5.545",
       "link": "./assets/pages/productos/productdetails.html?idproduct=15",
@@ -178,7 +178,7 @@
     },
     {
       "idProduct": 16,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/remera-joystick-retro-nintendo-85.png",
+      "img": "https://acortar.link/exp8jM",
       "title": "Remera Joystick Retro Nintendo 85",
       "price": "2.500",
       "link": "./assets/pages/productos/productdetails.html?idproduct=16",
@@ -189,7 +189,7 @@
     },
     {
       "idProduct": 17,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/taza-de-playstation-del-mando-dualShock-4.jpg",
+      "img": "https://acortar.link/QKZUoR",
       "title": "Taza De Playstation Del Mando DualShock 4",
       "price": "1.699",
       "link": "./assets/pages/productos/productdetails.html?idproduct=17",
@@ -200,7 +200,7 @@
     },
     {
       "idProduct": 18,
-      "img": "https://raw.githubusercontent.com/PaulaLemStaFe/E-Commerce_OOA/master/assets/imagenes/diversos/bandai-hobby%E2%80%93pokemon-pikachu.jpg",
+      "img": "https://acortar.link/UI196d",
       "title": "Bandai Hobby Pokemon Pikachu",
       "price": "3.069",
       "link": "./assets/pages/productos/productdetails.html?idproduct=18",

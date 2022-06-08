@@ -9,9 +9,9 @@ export const crearCard = (img, title, price, idproduct, article) => {
     var urlDetails = '';
 
     if (document.title == "AluraGeek") {
-        urlDetails = "./assets/pages/productos/productdetails.html?idproduct=${idproduct}";
+        urlDetails = "./assets/pages/productos/productdetails.html";
     } else if (document.title == "AluraGeek - All Products" | document.title == "AluraGeek - Detalles") {
-        urlDetails = "productdetails.html?idproduct=${idproduct";
+        urlDetails = "productdetails.html";
     }
     
     const cardContent = 
@@ -32,7 +32,7 @@ export const crearCard = (img, title, price, idproduct, article) => {
             <i class="bi bi-pencil-fill" alt="Editar" title="Editar"></i>
         </div>
     </div>
-    <a class="item_link" href="${urlDetails}" rel="noopener noreferrer" alt="Ver Producto" title="Ver Producto">Ver Producto</a>
+    <a class="item_link" href="${urlDetails}?idproduct=${idproduct}" rel="noopener noreferrer" alt="Ver Producto" title="Ver Producto">Ver Producto</a>
      `;
      newCard.innerHTML = cardContent;
      return newCard;

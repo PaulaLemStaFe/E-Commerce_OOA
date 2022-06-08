@@ -37,7 +37,7 @@
 }
 
 .product_item:hover {
-	transform: scale(1.15);
+	transform: scale(1.10);
 }
 
 .item_img {
@@ -78,7 +78,7 @@
 .item_details:hover {
     color: darkblue;
     text-decoration: underline;
-    transform: scale(1.10);
+    transform: scale(1.05);
 }
 
 
